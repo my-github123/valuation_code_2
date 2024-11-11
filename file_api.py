@@ -134,4 +134,4 @@ def evaluate_vehicle():
         final_value = round(reduced_value * reduction_factor)
         return render_template('result.html',price=price,age=age,months=months,owners=owners,odo_reading=odo_reading,city=city,fuel=fuel,transmission=transmission,category=category,value=final_value)
 if(__name__=="__main__"):
-    app.run(debug=True,port=8000)
+    app.run(debug=True)
